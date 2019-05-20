@@ -31,7 +31,7 @@ class Simon
 
   def show_sequence
     self.add_random_color
-    puts "#{@sequence}"
+    puts "#{@seq}"
   end
 
   def require_sequence
